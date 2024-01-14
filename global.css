@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+/* nav bar start from here */
+.navcontainer{
+    height: 65px;
+    background-color: aqua;
+    color: black;
+    display: flex;
+}
+.logoblock{
+    height: inherit;
+    width: 25%;
+    background-color:blanchedalmond ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listblock{
+    height: inherit;
+    width: 75%;
+    background-color: red;
+}
+
+.listblock ul{
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.listblock ul a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size:19px ;
+    /* color: aliceblue; */
+    color: black;
+}
+
+.tablecontainer{
+    border: 2px solid black;
+    height: 400px;
+    width: 800px;
+    margin: 0 auto;
+    padding: 2px;
+    /* border-spacing: 0cap; */
+    margin-top: 30px;
+    text-align: center;
+    background-color: rgb(211, 215, 219);
+}
+
+th,td,td{
+    border: 2px solid black;
+}
+
+.welcomehome{
+    text-align: center;
+}
+
+/* viewsingle */
+.viewsinglesection{
+    height: 300px;
+    width: 400px;
+    background-color: bisque;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-left: 35%;
+}
+
+.viewsinglesection .details{
+    margin-left: 20px;
+}
+
+.divbuttons{
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* viewsingle */
+
+/* navbar list */
+
+.navlist{
+    display: flex;
+    gap: 20px;
+}
+.navlistviewall{
+    display: flex;
+    gap: 20px;
+}
+.updatebutton{
+    display: flex;
+    gap: 10px;
+    background-color: aquamarine;
+}
